@@ -1,0 +1,48 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: .77rem 0;
+  background-color: #010c3f;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: white
+}
+
+h2 {
+    padding: .77rem 0;
+    background-color: #010c3f;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .app-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .SearchResults {
+    width: 45%; /* Adjust this value as needed */
+    height: 500px;
+    overflow-y: scroll;
+    padding: .88rem;
+    box-shadow: 0 4px 2px 2px #000000;
+  }
+
+  .ReadingList {
+    width: 45%; /* Adjust this value as needed */
+    height: 500px;
+    overflow-y: scroll;
+    padding: .88rem;
+    box-shadow: 0 4px 2px 2px #000000;
+  }

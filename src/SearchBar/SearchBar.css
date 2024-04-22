@@ -1,0 +1,32 @@
+/* Search bar container */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search input */
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Search button */
+.search-button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Search button hover effect */
+.search-button:hover {
+    background-color: #0056b3;
+}

@@ -3,12 +3,19 @@
 .button {
     background-color: #0b9bf5;
     border: none;
+    border-radius: 5px;
     color: white;
-    padding: 15px 32px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+
+  .book-details {
+    display: flex;
+    align-items: center; /* This will align items vertically in the middle */
+    justify-content: space-between; /* This will put some space between your book details and the button */
   }

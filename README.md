@@ -1,3 +1,20 @@
+# How to install the booksearch app
+
+- Clone this repository to your local drive.
+- Open the folder in your favorite editor, for example Visual Studio Code.
+- Open a terminal.
+- Enter `npm install`
+- Enter `npm start`
+
+# Function of the app
+
+- You can search for books online in the OpenLibrary catalog: https://openlibrary.org/
+- The app uses the OpenLibrary's book search API: https://openlibrary.org/dev/docs/api/search
+- Enter a search term and press the search button.
+- The results will show up in the search result list on the left.
+- You can add books to your reading list on the right by clicking on the add button.
+- Added books can be removed from the reading list by clicking the remove button.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
